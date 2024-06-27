@@ -5,7 +5,7 @@ import { Form, Formik } from "formik";
 import CustomInput from "./CustomInput";
 import CustomCheckbox from "./CustomCheckbox";
 import CustomSelect from "./CustomSelect";
-import { advancedSchema } from "../schemas";
+
 
 const onSubmit = async (values, actions) => {
   console.log(values)
